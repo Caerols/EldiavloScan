@@ -1,0 +1,108 @@
+/* Estilos generales para el cuerpo del documento */
+body {
+    background-color: #2e3b55; /* Fondo azul oscuro */
+    color: #c9a12c; /* Color dorado para el texto */
+    font-family: 'Georgia', serif; /* Fuente elegante Serif */
+    font-weight: 300; /* Peso de fuente ligero */
+    letter-spacing: 0.5px; /* Espaciado sutil entre letras */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #2a4668; /* Fondo azul oscuro más intenso para contraste */
+}
+
+/* Efecto hover en los enlaces de la barra de navegación */
+.navbar-nav .nav-link:hover {
+    background-color: #ddd; /* Fondo claro al pasar el cursor */
+    color: rgb(196, 6, 6); /* Texto rojo al pasar el cursor */
+    transition: background-color 0.3s ease; /* Transición suave de color de fondo */
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-menu {
+    background-color: #8d8c8c; /* Fondo oscuro */
+}
+
+/* Efecto hover en los elementos del menú desplegable */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #ddd; /* Fondo claro al pasar el cursor */
+    color: rgb(254, 16, 16); /* Texto rojo al pasar el cursor */
+}
+
+/* Estilos para la sección del catálogo */
+.catalogo {
+    display: flex; /* Diseño flexible */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    gap: 100px; /* Espaciado entre elementos */
+    justify-content: center; /* Justificación centrada */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos para las tarjetas del catálogo */
+.card {
+    width: 18rem; /* Ancho fijo de las tarjetas */
+    border: none; /* Sin borde */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave de transformación y sombra */
+}
+
+/* Efecto hover en las tarjetas */
+.card:hover {
+    transform: scale(1.05); /* Aumenta la escala al pasar el cursor */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa al pasar el cursor */
+}
+
+/* Estilos para las imágenes dentro de las tarjetas */
+.card img {
+    object-fit: cover; /* Ajuste de objeto para cubrir el contenedor */
+    height: 400px; /* Altura fija de las imágenes */
+}
+
+/* Estilos para el cuerpo de las tarjetas */
+.card-body {
+    background: #f8f9fa; /* Fondo claro */
+}
+
+/* Estilos para los elementos del carrusel */
+.carousel-item {
+    background-size: cover; /* Tamaño de fondo para cubrir el contenedor */
+    background-position: center; /* Posición centrada del fondo */
+    background-repeat: no-repeat; /* Sin repetición del fondo */
+    height: 600px; /* Altura fija del carrusel */
+    position: relative; /* Posición relativa para superposición */
+}
+
+/* Centrar el contenido dentro del carrusel */
+.carousel-item .card {
+    margin: auto; /* Margen automático para centrar */
+    z-index: 2; /* Índice de z para superposición */
+}
+
+/* Oscurecer el fondo del carrusel para destacar el contenido */
+.carousel-item::after {
+    content: ""; /* Contenido vacío para el pseudo-elemento */
+    position: absolute; /* Posición absoluta para superposición */
+    top: 0; /* Alineación superior */
+    left: 0; /* Alineación izquierda */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con transparencia */
+    z-index: 1; /* Índice de z para superposición */
+}
+/* Estilos personalizados para los botones de redes sociales */
+.btn-facebook {
+    background-color: #3975f7; /* Color de fondo de Facebook */
+    color: white; /* Color del texto */
+}
+
+.btn-facebook:hover {
+    background-color: #3c74ed; /* Color de fondo de Facebook al pasar el cursor */
+}
+
+.btn-instagram {
+    background-color: #fa7e1e; /* Color de fondo de Instagram*/
+}
+.btn-instagram:hover {
+    background-color: #c92c8d ; /* Color de fondo de Instagram al pasar el cursor */
+    }
