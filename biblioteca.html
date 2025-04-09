@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Meta Data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca - EldiavloScan</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./logo/eldiavloscan.png" alt="EldiavloScan Logo" style="height: 40px;"> EldiavloScan
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="biblioteca.html">Biblioteca</a></li>
+          <li class="nav-item"><a class="nav-link" href="acercade.html">Acerca de</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contactanos.html">Contáctanos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Filtrado de búsqueda -->
+  <section class="container my-5">
+    <h1 class="text-center fw-bold">Catálogo de Biblioteca</h1>
+    <hr class="w-25 mx-auto">
+    <form class="d-flex justify-content-center mb-4">
+        <input type="text" id="searchInput" class="form-control w-50" placeholder="Buscar por título o descripción" autocomplete="off">
+      </form>
+  </section>
+  <!-- Catálogo -->
+  <section class="container">
+    <ul class="list-group" id="catalogList">
+      <!-- Solo Leveling -->
+      <li class="list-group-item d-flex align-items-center">
+        <img src="./port/thumb_17515_albumes_big.jpeg" alt="Solo Leveling" style="height: 80px; margin-right: 20px;">
+        <div>
+          <h5 class="fw-bold">Solo Leveling</h5>
+          <p>Sistema - Subir de nivel</p>
+          <a href="biblosololeveling.html" target="_blank" class="btn btn-primary btn-sm">Leer más</a>
+        </div>
+      </li>
+      <!-- La vida después de la muerte -->
+      <li class="list-group-item d-flex align-items-center">
+        <img src="./port/UQVjAQ.webp" alt="Deep Water" style="height: 80px; margin-right: 20px;">
+        <div>
+          <h5 class="fw-bold">La vida después de la muerte</h5>
+          <p>Reencarnación - Shonen</p>
+          <a href="https://zonatmo.com/library/manhwa/42414/deepwater" target="_blank" class="btn btn-primary btn-sm">Leer más</a>
+        </div>
+      </li>
+      <!-- Leviatán -->
+      <li class="list-group-item d-flex align-items-center">
+        <img src="./port/c6iXdf.webp" alt="Leviatán" style="height: 80px; margin-right: 20px;">
+        <div>
+          <h5 class="fw-bold">Leviatán</h5>
+          <p>Apocalíptico - Drama</p>
+          <a href="https://zonatmo.com/library/manhwa/47049/leviathan" target="_blank" class="btn btn-primary btn-sm">Leer más</a>
+        </div>
+      </li>
+      <!-- Artes Marciales Globales -->
+      <li class="list-group-item d-flex align-items-center">
+        <img src="./port/artesmarciales.webp" alt="Artes Marciales Globales" style="height: 80px; margin-right: 20px;">
+        <div>
+          <h5 class="fw-bold">Artes Marciales Globales</h5>
+          <p>Acción, Aventura, Comedia</p>
+          <a href="https://olympusbiblioteca.com/series/comic-el-men-de-las-peleas" target="_blank" class="btn btn-primary btn-sm">Leer más</a>
+        </div>
+      </li>
+      <!-- Como vivir como un villano -->
+      <li class="list-group-item d-flex align-items-center">
+        <img src="./port/villano.webp" alt="Como vivir como un villano" style="height: 80px; margin-right: 20px;">
+        <div>
+          <h5 class="fw-bold">Como vivir como un villano</h5>
+          <p>Acción, Aventura, Fantasía</p>
+          <a href="https://olympusbiblioteca.com/series/comic-02-04-2025mm208-10254dml" target="_blank" class="btn btn-primary btn-sm">Leer más</a>
+        </div>
+      </li>
+      <!-- Comienza con una montaña -->
+      <li class="list-group-item d-flex align-items-center">
+        <img src="./port/comienza.webp" alt="Comienza con una montaña" style="height: 80px; margin-right: 20px;">
+        <div>
+          <h5 class="fw-bold">Comienza con una montaña</h5>
+          <p>Acción, Cultivación, Sistema</p>
+          <a href="https://olympusbiblioteca.com/series/comic-montanita13424" target="_blank" class="btn btn-primary btn-sm">Leer más</a>
+        </div>
+      </li>
+      <!-- La venganza del sabueso de sangre de hierro -->
+      <li class="list-group-item d-flex align-items-center">
+        <img src="./port/sabueso.webp" alt="La venganza del sabueso de sangre de hierro" style="height: 80px; margin-right: 20px;">
+        <div>
+          <h5 class="fw-bold">La venganza del sabueso de sangre de hierro</h5>
+          <p>Acción, Regresión, Venganza</p>
+          <a href="https://olympusbiblioteca.com/series/comic-sabueso13424" target="_blank" class="btn btn-primary btn-sm">Leer más</a>
+        </div>
+      </li>
+      <!-- Regresión del bastardo del clan de la espada -->
+      <li class="list-group-item d-flex align-items-center">
+        <img src="./port/bastardo.webp" alt="Regresión del bastardo del clan de la espada" style="height: 80px; margin-right: 20px;">
+        <div>
+          <h5 class="fw-bold">Regresión del bastardo del clan de la espada</h5>
+          <p>Acción, Regresión, Venganza</p>
+          <a href="https://olympusbiblioteca.com/series/comic-regresion-del-ba1241259121590152309" target="_blank" class="btn btn-primary btn-sm">Leer más</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+<!-- JavaScript para el filtrado -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Obtiene el campo de búsqueda y la lista del catálogo
+    const searchInput = document.getElementById('searchInput');
+    const catalogList = document.getElementById('catalogList');
+  
+    // Agrega un evento de escucha para el campo de búsqueda
+    searchInput.addEventListener('input', () => {
+      // Obtiene el valor del campo de búsqueda y lo convierte a minúsculas
+      const filter = searchInput.value.toLowerCase();
+      // Convierte los elementos de la lista del catálogo en un array
+      const items = Array.from(catalogList.getElementsByTagName('li'));
+      
+      // Itera sobre cada elemento de la lista
+      items.forEach(item => {
+        // Obtiene el título y la descripción del elemento y los convierte a minúsculas
+        const title = item.getElementsByTagName('h5')[0].textContent.toLowerCase();
+        const description = item.getElementsByTagName('p')[0].textContent.toLowerCase();
+        
+        // Muestra u oculta el elemento según si el título o la descripción incluyen el filtro
+        if (title.includes(filter) || description.includes(filter)) {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+  
+      // Ordena los elementos según la relevancia
+      items.sort((a, b) => {
+        // Obtiene el título y la descripción de cada elemento y los convierte a minúsculas
+        const aTitle = a.getElementsByTagName('h5')[0].textContent.toLowerCase();
+        const aDescription = a.getElementsByTagName('p')[0].textContent.toLowerCase();
+        const bTitle = b.getElementsByTagName('h5')[0].textContent.toLowerCase();
+        const bDescription = b.getElementsByTagName('p')[0].textContent.toLowerCase();
+  
+        // Calcula la relevancia de cada elemento
+        const aRelevance = (aTitle.includes(filter) ? 1 : 0) + (aDescription.includes(filter) ? 1 : 0);
+        const bRelevance = (bTitle.includes(filter) ? 1 : 0) + (bDescription.includes(filter) ? 1 : 0);
+  
+        // Compara la relevancia de los elementos para ordenarlos
+        return bRelevance - aRelevance;
+      });
+  
+      // Reorganiza los elementos en el DOM según el nuevo orden
+      items.forEach(item => catalogList.appendChild(item));
+    });
+  });
+  </script>
+    <!-- Pie de página -->
+  <footer class="text-center mt-5 bg-dark text-white py-3">
+      <p>&copy; 2025 EldiavloScan. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

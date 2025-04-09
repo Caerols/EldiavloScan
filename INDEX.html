@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EldiavloScan</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./logo/eldiavloscan.png" alt="EldiavloScan" style="height: 40px;">
+            </a>
+            <a class="navbar-brand" href="#">EldiavloScan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="INDEX.html">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Menú</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a class="nav-link" href="biblioteca.html">Biblioteca</a></li>
+                            <li class="nav-item"><a class="nav-link" href="acercade.html">Acerca de</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="contactanos.html">Contáctanos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Welcome Section -->
+    <div class="text-center mt-5">
+        <h1 class="fw-bold">EldiavloScan</h1>
+        <hr class="w-25 mx-auto">
+        <p>Recomendados</p>
+    </div>
+
+    <!-- Carrusel de Recomendados -->
+    <div id="catalogoCarrusel" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('./port/thumb_17515_albumes_big.jpeg');">
+                <div class="card mx-auto text-center" style="width: 18rem;">
+                    <img src="./port/thumb_17515_albumes_big.jpeg" alt="Solo Leveling" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Solo Leveling</h5>
+                        <p class="card-text">Sistema - Subir de nivel</p>
+                        <a href="biblosololeveling.html" target="_blank" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('./port/UQVjAQ.webp');">
+                <div class="card mx-auto text-center" style="width: 18rem;">
+                    <img src="./port/UQVjAQ.webp" alt="Deep Water" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">La vida después de la muerte</h5>
+                        <p class="card-text">Reencarnación - Shonen</p>
+                        <a href="https://zonatmo.com/library/manhwa/42414/deepwater" target="_blank" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('./port/c6iXdf.webp');">
+                <div class="card mx-auto text-center" style="width: 18rem;">
+                    <img src="./port/c6iXdf.webp" alt="Leviathan" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Leviatán</h5>
+                        <p class="card-text">Apocalíptico - Drama</p>
+                        <a href="https://zonatmo.com/library/manhwa/47049/leviathan" target="_blank" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#catalogoCarrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#catalogoCarrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Sección Catálogo -->
+    <div class="text-center mt-5">
+        <hr class="w-25 mx-auto">
+        <p>Lo mas leido</p>
+    </div>
+    <div class="catalogo">
+        <div class="card text-center">
+            <img src="./port/thumb_17515_albumes_big.jpeg" alt="Solo Leveling" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Solo Leveling</h5>
+                <p class="card-text">Sistema - Subir de nivel</p>
+                <a href="biblosololeveling.html" target="_blank" class="btn btn-primary">Leer más</a>
+            </div>
+        </div>
+        <div class="card text-center">
+            <img src="./port/UQVjAQ.webp" alt="Deep Water" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">La vida después de la muerte</h5>
+                <p class="card-text">Reencarnación - Shonen</p>
+                <a href="https://zonatmo.com/library/manhwa/42414/deepwater" target="_blank" class="btn btn-primary">Leer más</a>
+            </div>
+        </div>
+        <div class="card text-center">
+            <img src="./port/c6iXdf.webp" alt="Leviathan" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Leviatán</h5>
+                <p class="card-text">Apocalíptico - Drama</p>
+                <a href="https://zonatmo.com/library/manhwa/47049/leviathan" target="_blank" class="btn btn-primary">Leer más</a>
+            </div>
+        </div>
+    <div class="card text-center">
+        <img src="./port/artesmarciales.webp" alt="artesmarciales" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Artes Marciales Globales</h5>
+            <p class="card-text">Acción,Aventura,Comedia</p>
+            <a href="https://olympusbiblioteca.com/series/comic-el-men-de-las-peleas" target="_blank" class="btn btn-primary">Leer más</a>
+        </div>
+    </div>
+    <div class="card text-center">
+        <img src="./port/villano.webp" alt="artesmarciales" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Como vivir como un villano</h5>
+            <p class="card-text">Acción,Aventura,Fantasía</p>
+            <a href="https://olympusbiblioteca.com/series/comic-02-04-2025mm208-10254dml" target="_blank" class="btn btn-primary">Leer más</a>
+        </div>
+    </div>
+    <div class="card text-center">
+        <img src="./port/comienza.webp" alt="artesmarciales" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Comienza con una montaña</h5>
+            <p class="card-text">Acción,Cultivación,Sistema</p>
+            <a href="https://olympusbiblioteca.com/series/comic-montanita13424" target="_blank" class="btn btn-primary">Leer más</a>
+        </div>
+    </div>
+    <div class="card text-center">
+        <img src="./port/sabueso.webp" alt="sabueso" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">La venganza del sabueso de sangre de hierro</h5>
+            <p class="card-text">Acción,Regresion,venganza</p>
+            <a href="https://olympusbiblioteca.com/series/comic-sabueso13424" target="_blank" class="btn btn-primary">Leer más</a>
+        </div>
+    </div>
+    <div class="card text-center">
+        <img src="./port/bastardo.webp" alt="sabueso" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Regresión del bastardo del clan de la espada</h5>
+            <p class="card-text">Acción,Regresion,venganza</p>
+            <a href="https://olympusbiblioteca.com/series/comic-regresion-del-ba1241259121590152309" target="_blank" class="btn btn-primary">Leer más</a>
+        </div>
+    </div>
+</div>
+
+    <!-- Pie de página -->
+    <footer class="text-center mt-5 bg-dark text-white py-3">
+        <p>&copy; 2025 EldiavloScan. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+

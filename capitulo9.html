@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Solo Leveling - Capitulo 9</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./logo/eldiavloscan.png" alt="EldiavloScan Logo" style="height: 40px;"> EldiavloScan
+              </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="INDEX.html">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Menú</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item"><a class="nav-link" href="biblioteca.html">Biblioteca</a></li>
+                            <li class="nav-item"><a class="nav-link" href="acercade.html">Acerca de</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="contactanos.html">Contáctanos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Manga Section -->
+    <div class="container mt-5 text-center">
+        <h1>Solo Leveling - Capitulo 9</h1>
+        <hr class="w-25 mx-auto">
+        <!-- Capitulo 9 Images -->
+        <div id="capitulo9-images" class="cascade-images"></div>
+        <!-- Navigation Buttons -->
+        <div class="mt-4">
+            <a href="capitulo8.html" class="btn btn-primary">Anterior</a>
+            <a href="INDEX.html" class="btn btn-primary">Inicio</a>
+        </div>
+    </div>
+    <!-- Pie de página -->
+    <footer class="text-center mt-5 bg-dark text-white py-3">
+        <p>© 2025 EldiavloScan. Todos los derechos reservados.</p>
+    </footer>
+    <!-- JavaScript para buscar y mostrar imágenes -->
+    <script>
+        const folder = 'capitulo9';
+        const basePath = './mangas/Arco 01 - Mazmorra Rango-D (01-10)/' + folder + '/';
+        const images = [
+            'img_000000000000001_1.jpg',
+            'img_000000000000139_02.jpg',
+            'img_000000000000140_03.jpg',
+            'img_000000000000141_04.jpg',
+            'img_000000000000142_05.jpg',
+            'img_000000000000143_06.jpg',
+            'img_000000000000144_07.jpg',
+            'img_000000000000145_08.jpg',
+            'img_000000000000146_09.jpg',
+            'img_000000000000147_10.jpg',
+            'img_000000000000148_11.jpg',
+            'img_000000000000149_12.jpg',
+            'img_000000000000150_13.jpg',
+            'img_000000000000151_14.jpg',
+            'img_000000000000152_15.jpg',
+            'img_000000000000153_16.jpg',
+            'img_000000000000154_17.jpg'
+        ]; // Lista de imágenes en formato JPG
+        const container = document.getElementById('capitulo9-images');
+        images.forEach(img => {
+            const imgElement = document.createElement('img');
+            imgElement.src = basePath + img;
+            imgElement.classList.add('cascade-img', 'mx-auto', 'd-block');
+            container.appendChild(imgElement);
+        });
+    </script>
+</body>
+</html>
